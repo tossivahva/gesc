@@ -1,6 +1,7 @@
 {
   "name": "gesc",
   "version": "0.1.0",
+  "author": "tossi <tossivahva@gmail.com>",
   "private": true,
   "scripts": {
     "dev": "next dev",
