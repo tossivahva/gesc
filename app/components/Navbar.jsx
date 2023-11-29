@@ -1,4 +1,4 @@
-'use client'
+'use client';
 
 import React, {useEffect, useState} from 'react';
 import Image from 'next/image';
@@ -20,8 +20,7 @@ export default function Navbar() {
    }, []);
 
    return (
-      <nav className={`fixed flex w-full h-20 bg-navy-main/[.1] place-content-center' +
-   ' border-b-blue-400/[.5] border-b z-50 transition ease-in-out duration-500 ${animateHeader && 'bg-navy-main'}`}>
+      <nav className='fixed flex w-full h-20 bg-navy-main place-content-center border-b-blue-400/[.5] border-b z-50 transition ease-in-out duration-500'>
          <div className='flex justify-between items-center w-full h-full px-4 max-w-screen-2xl'>
             <Link href='/'>
                <Image src='gesc-logo-light.svg'
