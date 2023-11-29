@@ -1,4 +1,4 @@
-import HeroCarouselSwiper from '@/app/ui/home/HeroCarouselSwiper';
+import HeroCarouselSwiper from '@/app/_components/HeroCarouselSwiper';
 
 export default function Hero() {
    return (

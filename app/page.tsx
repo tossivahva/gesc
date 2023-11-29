@@ -1,7 +1,7 @@
-import CompanyPros from '@/app/ui/home/CompanyPros';
-import Hero from '@/app/ui/home/Hero';
-import Solutions from '@/app/ui/home/Solutions';
-import Footer from '@/app/ui/Footer';
+import CompanyPros from '@/app/_components/CompanyPros';
+import Hero from '@/app/_components/Hero';
+import Solutions from '@/app/_components/Solutions';
+import Footer from '@/app/_components/Footer';
 
 export default function Page() {
    return (

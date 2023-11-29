@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 export default function Navbar() {
    return (
-      <nav className='fixed flex w-full h-20 bg-navy-main/[.1] backdrop-blur-xl place-content-center border-b-cyan-700 border-b z-50'>
+      <nav className='fixed flex w-full h-20 bg-navy-main/[.9] backdrop-blur-2xl place-content-center border-b-blue-400/[.5] border-b z-50'>
          <div className='flex justify-between items-center w-full h-full px-4 max-w-screen-2xl'>
             <Link href='/'>
                <Image src='gesc-logo-light.svg'
