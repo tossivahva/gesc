@@ -17,7 +17,7 @@ export default function Solutions() {
                            Наш богатый опыт работы поставки оборудования выведет Вас на новый уровень.
                         </div>
                      </div>
-                     <div className='relative w-full h-full max-h-[360px]'>
+                     <div className='relative w-full h-full sm:max-h-[360px] min-h-[300px]'>
                         <div className='absolute bottom-0 left-0 w-full z-10 p-5 bg-gradient-to-t from-black/[.8] to-transparent'>
                            <div className='py-3'>
                               <DocumentDuplicateIcon width={56}
@@ -37,7 +37,7 @@ export default function Solutions() {
                                height={1000}
                                className='w-full h-full z-0'/>
                      </div>
-                     <div className='relative w-full h-full max-h-[360px]'>
+                     <div className='relative w-full h-full sm:max-h-[360px] min-h-[300px]'>
                         <div className='absolute bottom-0 left-0 w-full z-10 p-5 bg-gradient-to-t from-black/[.8] to-transparent'>
                            <div className='py-3'>
                               <CubeIcon width={56}
@@ -57,7 +57,7 @@ export default function Solutions() {
                                height={1000}
                                className='w-full h-full z-0'/>
                      </div>
-                     <div className='relative w-full h-full max-h-[360px]'>
+                     <div className='relative w-full h-full sm:max-h-[360px] min-h-[300px]'>
                         <div className='absolute bottom-0 left-0 w-full z-10 p-5 bg-gradient-to-t from-black/[.8] to-transparent'>
                            <div className='py-3'>
                               <TruckIcon width={56}
