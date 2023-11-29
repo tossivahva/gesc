@@ -1,6 +1,6 @@
 import './globals.css';
 import type {Metadata} from 'next';
-import Navbar from '@/app/_components/Navbar';
+import Navbar from '@/app/components/Navbar';
 import React from 'react';
 import {rubik} from '@/app/fonts';
 
