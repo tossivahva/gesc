@@ -4,10 +4,10 @@ import React from 'react';
 
 export default function Footer() {
    return (
-      <footer className='bg-navy-main w-full h-full pt-20 pb-10 border-t-blue-400/[.5] border-t'>
-         <div className='w-full h-full m-auto max-w-screen-xl'>
-            <div className='flex w-full h-full justify-center gap-5'>
-               <div className='w-full relative'>
+      <footer className='bg-navy-main flex w-full h-full pt-20 pb-10 border-t-blue-400/[.5] border-t'>
+         <div className='w-full h-full flex flex-col sm:max-w-screen-xl sm:m-auto m-3'>
+            <div className='flex sm:flex-row flex-col w-full h-full sm:justify-center sm:gap-5'>
+               <div className='w-full sm:relative'>
                   <div className='text-4xl text-white font-semibold pb-5'>Адреса</div>
                   <div>
                      <div className='text-amber-100 text-lg font-semibold pb-3'>
@@ -29,7 +29,7 @@ export default function Footer() {
                         </div>
                      </div>
                   </div>
-                  <div className='absolute bottom-0 left-0'>
+                  <div className='absolute bottom-0 left-0 sm:visible invisible'>
                      <Link href='/'>
                         <Image src='gesc-logo-light.svg'
                                alt='GES Computer Logo'
@@ -50,7 +50,7 @@ export default function Footer() {
                             placeholder='Email'
                             className='block w-full rounded-xl border-0 py-4 text-gray-900 shadow-sm placeholder:text-navy-main font-medium focus:ring-2 focus:ring-inset focus:ring-blue-400 sm:text-lg'/>
                   </div>
-                  <div className='flex justify-between gap-2 mt-4'>
+                  <div className='flex sm:flex-row flex-col justify-between gap-4 mt-4'>
                      <input type='tel'
                             placeholder='Телефон'
                             className='block w-full rounded-xl border-0 py-4 text-gray-900 shadow-sm placeholder:text-navy-main font-medium focus:ring-2 focus:ring-inset focus:ring-blue-400 sm:text-lg'/>

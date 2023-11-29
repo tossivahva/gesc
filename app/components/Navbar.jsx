@@ -6,18 +6,18 @@ import Link from 'next/link';
 
 export default function Navbar() {
 
-   const [animateHeader, setAnimateHeader] = useState(false);
-   useEffect(() => {
-      const listener = () => {
-         if (window.scrollY > 200) {
-            setAnimateHeader(true);
-         } else setAnimateHeader(false);
-      };
-      window.addEventListener('scroll', listener);
-      return () => {
-         window.removeEventListener('scroll', listener);
-      };
-   }, []);
+   // const [animateHeader, setAnimateHeader] = useState(false);
+   // useEffect(() => {
+   //    const listener = () => {
+   //       if (window.scrollY > 200) {
+   //          setAnimateHeader(true);
+   //       } else setAnimateHeader(false);
+   //    };
+   //    window.addEventListener('scroll', listener);
+   //    return () => {
+   //       window.removeEventListener('scroll', listener);
+   //    };
+   // }, []);
 
    return (
       <nav className='fixed flex w-full h-20 bg-navy-main place-content-center border-b-blue-400/[.5] border-b z-50 transition ease-in-out duration-500'>
@@ -45,7 +45,7 @@ export default function Navbar() {
                </ul>
             </div>
             <div>
-               <button className='bg-orange-500 hover:bg-yellow-500 text-lg text-white hover:text-black font-medium py-3 px-8 rounded-xl'>
+               <button className='sm:visible invisible bg-orange-500 hover:bg-yellow-500 text-lg text-white hover:text-black font-medium py-3 px-8 rounded-xl'>
                   Стать партнером
                </button>
             </div>
